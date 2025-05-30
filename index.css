@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffbf00;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0 73.9px;
+    box-sizing: border-box;
+}
+
+.text {
+    margin-top: 199.5px;
+    /*border: 1px solid white;*/
+    width: 50%;
+}
+
+span {
+    position: relative;
+    margin-top: 25px;
+    font-size: 68.9px;
+    font-weight: 700;
+}
+
+p {
+    position: relative;
+    margin-top: 15px;
+    color: #4d0a64;
+    font-weight: 700;
+    font-size: 28.5px;
+    /*border: 1px solid white;*/
+    padding-right: 70px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    text-align: left;
+    text-align: justify;
+}
+
+.min {
+    font-size: 50px;
+}
+
+.title {
+    color: #4d0a64;
+}
+
+.title1 {
+    position: relative;
+    color: #ff4d00;
+}
+
+.bt {
+    position: relative;
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 110.85px;
+    height: 32px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.bt1 {
+    background-color: #4d0a64;
+    color: #fff;
+}
+
+.bt1:hover {
+    background-color: #2b0638;
+}
+
+.bt1:active {
+    transition: 0.3s;
+    background-color: #9f64b3;
+}
+
+.bt2 {
+    background-color: #ffbf00;
+    border: 1px solid #4d0a64;
+    color: #4d0a64;
+}
+
+.bt2:hover {
+    border-color: #2b0638;
+    color: #2b0638;
+}
+
+.bt2:active {
+    border-color: #9f64b3;
+    color: #9f64b3;
+}
+
+.ilustration {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-top: -275px;
+    /*border: 1px solid white;*/
+    width: 600px;
+    height: 230px;
+}
+
+.box1 {
+    position: relative;
+    margin-top: 25%;
+    background-color: #4d0a64;
+    opacity: 0.6;
+    width: 286px;
+    height: 327px;
+}
+
+.box2 {
+    position: relative;
+    margin-top: -16%;
+    background-color: #ff4d00;
+    width: 286px;
+    height: 327px;
+}
+
+.box3 {
+    position: absolute;
+    margin-left: 25%;
+    border: 4px solid white;
+    border-style: dashed;
+    background-image: url(https://img.freepik.com/fotos-gratis/mulher-com-carrinho-de-compras-comprando-comida-no-supermercado_342744-1131.jpg?ga=GA1.1.19764164.1748377790&semt=ais_hybrid&w=740);
+    background-size: cover;
+    width: 286px;
+    height: 327px;
+}
+
+.screen {
+    position: relative;
+    margin-left: -73.9px;
+    margin-top: 280px;
+    background-color: #9b7a17;
+    width: 111.48%;
+    height: 739px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.box {
+    position: relative;
+    margin-left: 50%;
+    margin-top: 586.4;
+    transform: translate(-50%);
+    border: 1px solid white;
+    height: 100%;
+}
+
+.Criar {
+    background-color: #ff4d00;
+    border: none;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 50px;
+    transform: translate(-50%);
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Criar:hover{
+    background-color: #a13101;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: -73.9px;
+    margin-top: 280px;
+    width: 111.6%;
+    height: 250px;
+    background-color: #9b7a17;
+    text-align: center;
+}
+
+footer a {
+    position: relative;
+    margin-top: 15px;
+}
+
+.choice {
+    position: fixed;
+    top: 0;
+    margin-left: -73.9px;
+    width: 100%;
+    height: 100%;
+    background-color: #9b7a17;
+    z-index: 3;
+}
+
+.login {
+    position: relative;
+    margin-left: 50%;
+    transform: translate(-50%);
+    /*border: 1px solid white;*/
+    width: 600px;
+    height: 100%;
+}
+
+.X {
+    position: fixed;
+    margin: 15px;
+    /*border: 1px solid green;*/
+    width: 30px;
+    height: 30px;
+    rotate: 45deg;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.line1 {
+    position: relative;
+    margin-top: 50%;
+    border: 1px solid #4b3b0c;
+}
+
+.line2 {
+    position: relative;
+    margin-left: 50%;
+    margin-top: -16px;
+    transform: translate(-50%);
+    width: 1px;
+    height: 100%;
+    border: 1px solid #4b3b0c;
+}
+
+#criar {
+    position: relative;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 25px;
+    width: 150px;
+    height: 25px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff4d00;
+    color: white;
+    cursor: pointer;
+}
+
+.choice {
+    display: none;
+}
+
+.choices {
+    padding: 0 100px;
+    display: flex;
+    position: relative;
+    margin-top: 150px;
+    /*border: 1px solid green;*/
+    height: 250px;
+    cursor: pointer;
+}
+
+.ch {
+    position: relative;
+    border-radius: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    height: 75%;
+    width: 190px;
+}
+
+.ch1 {
+    background-image: url(https://img.freepik.com/fotos-gratis/retrato-de-um-homem-trabalhando-como-vendedor-no-mercado_23-2151230111.jpg?ga=GA1.1.19764164.1748377790&semt=ais_hybrid&w=740);
+    background-size: cover;
+    box-shadow: inset 1px 1px 10px black;
+}
+
+.ch2 {
+    margin-left: auto;
+    background-image: url(https://img.freepik.com/fotos-gratis/mulher-no-supermercado-usando-balanca-digital-self-service-para-medir-o-peso-da-fruta_342744-1100.jpg?ga=GA1.1.19764164.1748377790&semt=ais_hybrid&w=740);
+    background-size: cover;
+    box-shadow: inset 1px 1px 10px black;
+}
+
+.titles {
+    position: relative;
+    margin-left: 50%;
+    margin-top: -65px;
+    transform: translate(-60%);
+    display: flex;
+}
+
+.txt3 {
+    color: white;
+}
