@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*TELA DE FUNDO*/
+
+
+body {
+    background-image: radial-gradient(rgb(36, 36, 36) , rgb(0, 0, 0));
+    width: 100%;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 5vw;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding-left: 5vw !important;
+        padding-right: 5vw !important;
+    }
+
+    .people {
+        height: 576px !important;
+        padding: 0 !important;
+        box-sizing: border-box;
+    }
+
+    .foto {
+        position: relative;
+        left: 50%;
+        transform: scale(0.9) translate(-50%);
+    }
+
+    .textosInf {
+        width: 600px !important;
+        margin-top: -75px;
+        left: 50%;
+        transform: translate(-60%);
+        overflow: visible !important;
+    }
+
+    .I {
+        text-align: center;
+    }
+
+    .my {
+        margin-top: 10px !important;
+        text-align: center !important;
+        text-indent: 0 !important;
+    }
+
+    .iconesDrede {
+        left: -48%;
+    }
+
+    .sobre_mim {
+        height: 2150px !important;
+    }
+
+    .cats {
+        margin-top: 10px !;
+        height: 100% !important;
+    }
+
+    .cat:first-child {
+        margin-left: 50px;
+    }
+
+    .cat {
+        left: 38%;
+        transform: translate(-53.5%)
+    }
+
+    .data {
+        margin-left: 25px !important;
+        margin-right: 55px !important;
+
+    }
+
+    .projetos {
+        height: 1200px !important;
+        padding: 25px !important;
+        box-sizing: border-box !;
+        height: 1300px !important;
+    }
+
+    .stylos {
+        display: flex;
+        flex-wrap: wrap;
+        height: 94% !important;
+    }
+
+    .stylo {
+        margin-left: 9px !important;
+        margin-top: 15px;
+        width: 300px !important;
+    }
+
+}
+
+@media screen and (width: 844px) {
+    body {
+        padding-left: 5vw !important;
+        padding-right: 5vw !important;
+    }
+
+    .people {
+        height: 576px !important;
+        padding: 0 !important;
+        box-sizing: border-box;
+    }
+
+    .foto {
+        position: relative;
+        left: 50%;
+        transform: scale(0.9) translate(-50%);
+    }
+
+    .textosInf {
+        width: 600px !important;
+        margin-top: -75px;
+        left: 55%;
+        transform: translate(-59%);
+        overflow: visible !important;
+    }
+
+    .I {
+        text-align: center;
+    }
+
+    .my {
+        margin-top: 10px !important;
+        text-align: center !important;
+        text-indent: 0 !important;
+    }
+
+    .iconesDrede {
+        left: -38%;
+    }
+
+    .sobre_mim {
+        padding-left: 0vw !important;
+        padding-right: 0vw !important;
+        height: 355vh !important;
+    }
+
+    .cats {
+        height: 550px !important;
+        padding-left: 1vw !important;
+        box-sizing: border-box !important;
+    }
+
+    .cat:first-child {
+        margin-left: 55px;
+    }
+
+    .cat {
+        left: -1%;
+       /* transform: translate(-50%) !important;*/
+    }
+
+    .stylo {
+        margin-left: 10px !important;
+        width: 100vw !important;
+    }
+}
+/*PESSOA*/
+
+.people {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border: 1px solid rgb(87, 86, 86);
+    border-radius: 3px;
+    width: 100%;
+    height: 288px;
+    background-color: rgba(77, 76, 76, 0.308);
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.foto {
+    border: 1px solid gray;
+    border-radius: 100%;
+    width: 230px;
+    height: 230px;
+    overflow: hidden;
+}
+
+.fotoPeople {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    object-fit: cover;
+}
+
+.textosInf {
+    position: relative;
+    margin-left: 30px;
+    /*border: 1px solid gray;*/
+    width: 60%;
+    height: 230px;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: italico;
+    src: url(fonte/NotoSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: italica;
+    src: url(fonte/NotoSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+h1 {
+    font-family: italico;
+    color: white;
+    border-width: px;
+}
+
+p {
+    font-family: italica;
+    color: rgb(223, 220, 220);
+}
+
+.name {
+    position: relative;
+}
+
+.I {
+    position: relative;
+}
+
+.my {
+    position: relative;
+    margin-top: 30px;
+    text-align: left;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.iconesDrede {
+    position: relative;
+    margin-left: 77%;
+    margin-top: 45px;
+    /*border: 1px solid white;*/
+    width: 160px;
+    height: 50px;
+}
+
+/**/
+
+.sobre_mim {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 25px;
+    width: 100%;
+    height: 1230px;
+    background-color: rgba(77, 76, 76, 0.308);
+    border: 1px solid rgb(87, 86, 86);
+    border-radius: 3px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Sobre_Mim {
+    position: relative;
+    margin-left: 1vw;
+    margin-top: 0.2vw;
+}
+
+.cats {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 1.5%;
+    width: 100%;
+    height: 365.2px;
+    border: 1px solid rgb(87, 86, 86);
+}
+
+.cat {
+    background-image: linear-gradient(30deg,rgb(36, 36, 36), rgb(66, 66, 66) 90%);
+    position: relative;
+    margin-left: 25.4px;
+    border: 1px solid rgb(128, 127, 127);
+    border-radius: 13px;
+    width: 300px;
+    height: 175px;
+    padding-top: 15px;
+    padding-left: 75px;
+    padding-right: 75px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cat:hover {
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.icn1 {
+    background-color: hsl(84, 88%, 84%);
+    position: relative;
+    height: 100px;
+    border: 1px solid rgb(1, 77, 30);
+    border-radius: 20px;
+}
+
+.icn2 {
+    background-color: hsl(209, 88%, 84%);
+    position: relative;
+    height: 100px;
+    border: 1px solid rgb(1, 40, 77);
+    border-radius: 20px;
+}
+
+.icn3 {
+    background-color: hsl(0, 88%, 84%);
+    border: 1px solid rgb(77, 1, 1);
+}
+
+.icn4 {
+    background-color: hsl(305, 88%, 84%);
+    border: 1px solid rgb(77, 1, 67);
+}
+
+.icn5 {
+    background-color: hsl(56, 88%, 84%);
+    border: 1px solid rgb(77, 76, 1);
+}
+
+.icn6 {
+    background-color: hsl(19, 88%, 84%);
+    border: 1px solid rgb(77, 47, 1);
+}
+
+
+.icn1 svg{
+    fill: rgb(0, 66, 0);
+    position: relative;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.icn2 svg {
+    fill: rgb(1, 0, 66);
+    position: relative;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.icn3 svg {
+   
+}
+
+.icn4 svg {
+    fill: rgb(0, 255, 34);
+}
+
+.icn5 svg {
+    fill: rgb();
+}
+
+.icn6 svg {
+    fill: rgb(66, 37, 0);
+}
+
+.aniversario {
+    text-align: center;
+}
+
+.aniversarioG {
+    margin-left: -75px;
+    text-align: center;
+    /*border: 1px solid white;*/
+    width: 300px;
+}
+
+.data-nascimento {
+    position: relative;
+    margin-left: 1vw;
+    margin-top: 25px;
+}
+
+.data {
+    /*border: 1px solid green;*/
+    position: relative;
+    margin-left: 25px;
+    margin-right: 155px;
+    margin-top: 25px;
+}
+
+.data p {
+    position: relative;
+    width: 100%;
+    margin-top: 1.3vh;
+    margin-left: 5vw;
+    text-align: left;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.projetos {
+    position: relative;
+    margin-top: 25px;
+    width: 100%;
+    height: 523px;
+    background-color: rgba(77, 76, 76, 0.308);
+    border: 1px solid rgb(87, 86, 86);
+    border-radius: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+}
+
+.projetos h1 {
+    position: relative;
+    margin-top: 5px;
+}
+
+.stylos {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    /*border: 1px solid white;*/
+    height: 384px;
+    cursor: pointer;
+}
+
+.stylo {
+    position: relative;
+    margin-left: 50px;
+    border: 1px solid green;
+    border-radius: 20px;
+    width: 18vw;
+    height: 384px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.stylo img {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.dark {
+    display: none;
+    object-fit: contain;
+    position: relative;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    z-index: 1;
+}
+
+.dk3 {
+    display: flex;
+}
+
+.dk3 h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.dark h2 {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, 50%);
+}
